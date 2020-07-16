@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".YorgunUykusuzAracKullanma">
+
+    <ScrollView
+        android:id="@+id/scrollView9"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginBottom="8dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            tools:layout_editor_absoluteX="8dp"
+            tools:layout_editor_absoluteY="8dp">
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="65dp"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="10dp"
+                android:text="Yorgun, Uykusuz, Dalgın\n Araç Kullanma"
+                android:textColor="#000"
+                android:textSize="26dp"
+                android:textStyle="bold" />
+
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="45dp"
+                android:layout_marginLeft="12dp"
+                android:layout_marginTop="10dp"
+                android:text="A- Yorgunluk ve Uykusuzluğun\n Sürücüye Olumsuz Etkileri"
+                android:textSize="18dp"
+                android:textStyle="bold" />
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"
+                android:text="Ticari amaçla yük ve yolcu taşımacılıgı yapan ve azami agırlıgı 3,5 tonu geçen araçların şoförleri ile ticari amaç ile yolcu taşımacılıgı yapan ve taşıma kapasitesi şoförü dahil 9 kişiyi geçen araçların şoförlerinin 24 saatlik herhangi bir süre içerisinde, top- lam 9 saatten ve devamlı 4,5 saatten fazla araç sürmeleri yasaktır. " />
+
+
+            <ImageView
+                android:layout_width="300dp"
+                android:layout_height="150dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="20dp"
+                android:src="@drawable/kar6" />
+
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="25dp"
+                android:layout_marginLeft="12dp"
+                android:layout_marginTop="10dp"
+                android:text="B- Dalgın Araç Kullanmanın Tehlikeleri"
+                android:textSize="18dp"
+                android:textStyle="bold" />
+
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="165dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"
+                android:text="Araç kullanırken yaşamınızın en önemli işini yaptıgınızı aklınızdan çıkarmayın.
+Kaygan yollarda ani fren yaparak durmaya çalışmak, patinaj yaparak kalkmak.
+Öndeki araç geçilirken veya şerit degiştirirken geri görme aynasından yolu kontrol etmemek.\n
+Dönmek için kuyrukta beklerken, anayol trafigine dikkat etmeden öndeki araca çarpacak duruma gelmek.\n
+Takip mesafesi kurallarına uymayıp, öndeki araca çarpmak.
+Gibi davranışlar sergiliyorsanız; bilin ki dalgın araç kullanıyorsunuz demektir.
+            " />
+
+
+
+            <ImageView
+                android:layout_width="300dp"
+                android:layout_height="150dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="20dp"
+                android:src="@drawable/rat1" />
+
+
+
+
+
+        </LinearLayout>
+    </ScrollView>
+
+
+</android.support.constraint.ConstraintLayout>

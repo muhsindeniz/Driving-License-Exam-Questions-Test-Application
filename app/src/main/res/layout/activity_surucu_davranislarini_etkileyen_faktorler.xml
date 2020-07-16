@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SurucuDavranislariniEtkileyenFaktorler">
+
+
+
+    <ScrollView
+        android:id="@+id/scrollView7"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginBottom="8dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            tools:layout_editor_absoluteX="16dp"
+            tools:layout_editor_absoluteY="166dp">
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="60dp"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="10dp"
+                android:text="Sürücü Davranışlarını Etkileyen \n Faktörler"
+                android:textColor="#000"
+                android:textSize="24dp"
+                android:textStyle="bold" />
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="80dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="5dp"
+               android:text="Sürücülerin yetenek ve becerilere ne kadar sahip olabildikleri psiko-teknik deger- lendirme ve psikiyatri uzmanı kontrolü ile mümkün olabilmektedir ve her 5 yılda bir yenilenmek zorundadır."
+                />
+
+
+            <ImageView
+                android:layout_width="300dp"
+                android:layout_height="150dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="20dp"
+                android:src="@drawable/kar5" />
+
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="45dp"
+                android:layout_marginLeft="12dp"
+                android:layout_marginTop="10dp"
+                android:text="A- Trafikte Sigara İçme, Telefon Kullanma, vb. \n Davranışlar Sergileme"
+                android:textSize="18dp"
+                android:textStyle="bold" />
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="5dp"
+                android:text="Araç kullanırken sigara içmek sürücünün dikkatinin dagılmasına sebep olur. Sigaranın yakılma esnasında gözün yoldan ayrılması 2 saniyeden(takip mesafesinden) fazladır.\n\nAraç kullanırken telefonla konuşmak kaza riskini 4 KAT artırmaktadır."/>
+
+            <ImageView
+                android:layout_width="300dp"
+                android:layout_height="150dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="20dp"
+                android:src="@drawable/kar4" />
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="45dp"
+                android:layout_marginLeft="12dp"
+                android:layout_marginTop="10dp"
+                android:text="B- Sürücülük Performansı"
+                android:textSize="18dp"
+                android:textStyle="bold" />
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="5dp"
+                android:text="Sürücülükte yetenek ve beceriler tehlikenin algılanmasından, trafik işaretleri ile (Trafik polisi-trafik işaret levhaları-trafik ışıklı cihazı-yol çizgileri ve yer işaretlemeleri) karşılaşıldıgında gerekli mesajın alınması, karşıdan gelen aracın hız ve mesafesinin tahmini sürücülükte yaşamsal önem taşıyan etkenlerin yerine getirilmesi için gereklidir. 	"
+                />
+
+
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="45dp"
+                android:layout_marginLeft="12dp"
+                android:layout_marginTop="10dp"
+                android:text="C- Ruhsal Yapı Bozukluklarının Kazaya Etkisi"
+                android:textSize="18dp"
+                android:textStyle="bold" />
+
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="5dp"
+                android:text="Sürücülerin yetenek beceri ve kişisel özelliklerinin tanımı; Trafik kazalarında sürü- cüler daha fazla rol almaktadırlar. Bu nedenle araç sürücülerinin psiko-teknik yöntem- lerle zihinsel ve psiko-motor yetenek ve becerilerinin degerlendirilmesi çok önemlidir.
+"
+                />
+
+
+        </LinearLayout>
+    </ScrollView>
+
+
+
+</android.support.constraint.ConstraintLayout>

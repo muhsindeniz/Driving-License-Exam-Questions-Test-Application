@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.ehliyetsnavsorular">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".Subat_Sekiz"></activity>
+        <activity android:name=".AracGostergePaneli" />
+        <activity android:name=".Nisan_Sekiz" />
+        <activity android:name=".SurucuBelgeleri" />
+        <activity android:name=".SehirPlakaKodlari" />
+        <activity android:name=".Agustos_Sekiz" />
+        <activity android:name=".CikmisSorularTarih" />
+        <activity android:name=".IlkYardimBilgisi" />
+        <activity android:name=".AracTeknikKonulari" />
+        <activity android:name=".KuralihlaliAnalizi" />
+        <activity android:name=".GuvenliSuruculukteYetenek" />
+        <activity android:name=".YorgunUykusuzAracKullanma" />
+        <activity android:name=".AlkolveSuruculuk" />
+        <activity android:name=".SurucuDavranislariniEtkileyenFaktorler" />
+        <activity android:name=".SurucuDavranislarininEtkilenmesi" />
+        <activity android:name=".SistemCercevesindeTrafikOrtami" />
+        <activity android:name=".TrafikveCevreKonulari" />
+        <activity android:name=".SubjectTrafikteDavranis" />
+        <activity android:name=".TrafikteHak" />
+        <activity android:name=".SubjectTrafikteEmpati" />
+        <activity android:name=".TrafikAdabiKonulari" />
+        <activity android:name=".SubjectTrafikteTemelDegerler" />
+        <activity android:name=".SubjectTA" />
+        <activity android:name=".Subject" />
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

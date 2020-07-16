@@ -1,0 +1,328 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AracTeknikKonulari">
+
+
+    <ScrollView
+        android:id="@+id/scrollView11"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginBottom="8dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:id="@+id/linearLayout3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginEnd="8dp"
+            android:layout_marginRight="8dp"
+            android:layout_marginBottom="8dp"
+            android:orientation="vertical"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
+
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="300dp"
+                android:layout_height="30dp"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="15dp"
+                android:text="Motor ve Araç Tekniği"
+                android:textSize="24dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView4"
+                android:layout_width="300dp"
+                android:layout_height="30dp"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="15dp"
+                android:text="ARACIN VE MOTORUN SİSTEMLERİ:"
+                android:textSize="16dp"
+                android:textStyle="bold" />
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"
+                android:text="Marş Sistemi:Motora ilk hareket veren sistemdir." />
+
+
+
+            <ImageView
+                android:layout_width="300dp"
+                android:layout_height="150dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="5dp"
+                android:src="@drawable/r1" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"
+                android:text="Şarj Sistemi:Dinamonun vantilatör kayışından aldığı hareket enerjisini elektrik enerjisine çevirerek gerekli sistemlere elektrik dağıtır.Aküyü şarj eder." />
+
+
+            <ImageView
+                android:layout_width="300dp"
+                android:layout_height="150dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="5dp"
+                android:src="@drawable/r2" />
+
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"
+                android:text="Ateşleme Sistemi:12 voltluk elektrik akımını 15-35 bin volt arasında yükselterek ateşleme sırası gelen silindirler üstündeki bujilere yollayan sistemdir." />
+
+            <ImageView
+                android:layout_width="300dp"
+                android:layout_height="150dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="5dp"
+                android:src="@drawable/r3" />
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"
+                android:text="Soğutma Sistemi:Yanma sonunda meydana gelen ısıyı üzerine alıp motorun belli bir ısıda çalışmasını sağlayan sistemdir." />
+
+
+            <ImageView
+                android:layout_width="300dp"
+                android:layout_height="150dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="5dp"
+                android:src="@drawable/r4" />
+
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="120dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"
+                android:text="Yakıt Sistemi:Benzinli motorlarda yakıt deposundan çekilerek 1/5 oranında yakıt hava karışımını silindire yollayan sistemdir.Dizel motorlarda silindirlere alınan havanın sıkıştırılması sonucu ısınan havanın içine mazotun toz tanecikleri şeklinde püskürtülmesi sonucu ateşleme sağlar.
+ "/>
+
+
+            <ImageView
+                android:layout_width="300dp"
+                android:layout_height="150dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="5dp"
+                android:src="@drawable/r5" />
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="430dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"
+                android:text="Yağlama Sistemi: \n
+            1-Çalışan parçaların aşınmasını en aza indirmek, \n
+            2-Bazı motor parçalarını temizlemek, \n
+            3-Motorun soğutulmasına yardımcı olmak, \n
+            4-Paslanmayı ve oksitlenmeyi önlemek ve parçaların ömrünü uzatmak, \n
+            Motor Yağı Kontrolü:Araçlardaki yağ değişimi belirli aralıklarla yapılmalıdır.Yağ kontrolü için;\n
+            -Araç düz bir zeminde olmalıdır (karterdeki yağın eşit seviyede olması için) \n
+            -Araç çalışıyorsa motor kapatılır ve 4-5 dakika kadar beklenilir (motorun içindeki yağların süzülerek kartere toparlanması ve seviyeyi yükseltmesi için)\n
+            -Yağ çubuğu çekilir ve temiz,toz bırakmayan bir tezle temizlenir ve tekrardan yuvasına takılır.\n
+            -Yağ çubuğu tekrardan çekilir,maksimum ve minimum arasında olma durumuna bakılır.Yağ seviyesi minimumdan aşağıya motora uygun yağ eklenir,seviyesi maksimumdan fazlaysa motordaki yağ vakumlanır ve seviye iki çizgi arasına kadar getirilir. \n
+            -Motordaki yağ seviyesi minimumdan aşağıysa,parçalar sürtünerek çalışır ve araçta aşırı ısınma (hararet) meydana gelir,yağ seviyesi maksimumdan fazlaysa araç yağ yakar ve aracın egzozundan mavi renkte duman çıkar. \n" />
+
+
+            <ImageView
+                android:layout_width="300dp"
+                android:layout_height="150dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="5dp"
+                android:src="@drawable/r14" />
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="90dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"
+                android:text="Aydınlatma Sistemi:Araç seyir halindeyken ışıklı alıcıları çalıştırmaktır.
+Örnek:Farlar,sinyaller,geri vites lambaları,fren lambaları,iç aydınlatma vs."/>
+
+
+
+            <ImageView
+                android:layout_width="300dp"
+                android:layout_height="150dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="5dp"
+                android:src="@drawable/r6" />
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="90dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"
+                android:text="İkaz Sistemi:Araç seyir halindeyken sürücünün trafikte diğer sürücüleri ve yayaları sesli ve ışık yoluyla uyaran sistemdir."/>
+
+
+
+
+            <ImageView
+                android:layout_width="300dp"
+                android:layout_height="150dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="5dp"
+                android:src="@drawable/r7" />
+
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"
+                android:text="Örnek:Korna,4´lü flaşör,selektör,sinyal lambaları,geri vites lambası,ve fren lambaları,"/>
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"
+                android:text="Göstergeler Sistemi:Araç seyir halindeyken motorda ve aracın diğer kısımlarında oluşan arızayı sesli veya ışık yoluyla ikaz eden sistemdir."/>
+
+
+            <ImageView
+                android:layout_width="300dp"
+                android:layout_height="150dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="5dp"
+                android:src="@drawable/r8" />
+
+
+
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="130dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"
+                android:text="Güç Aktarma Organları:Motorun hareketini tekerlere aktarılmasını sağlayan ve çekici tekerlerle motor arasında bulunan parçaların tümüne güç aktarma organı denir.
+Güç aktarma organları çalışma prensibi debriyaj (kavrama)-vites kutusu (şanzıman) -şaft (kardan mili) – diferansiyel-aks."/>
+
+
+
+            <ImageView
+                android:layout_width="300dp"
+                android:layout_height="150dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="5dp"
+                android:src="@drawable/r9" />
+
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="45dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"
+               android:text="Süspansiyon sistemleri:Araç seyir halindeyken sarsıntı ve titreşimleri üzerinde toplayan sistemdir.
+ "/>
+
+
+
+            <ImageView
+                android:layout_width="300dp"
+                android:layout_height="150dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="5dp"
+                android:src="@drawable/r10" />
+
+
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="45dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"
+                android:text="Fren sistemi:Duran aracı sabitlemek,hareketle olan aracı durdurmak veya hızı azaltmak.
+ "/>
+
+
+
+
+            <ImageView
+                android:layout_width="300dp"
+                android:layout_height="150dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="5dp"
+                android:src="@drawable/r11" />
+
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="45dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"
+                android:text="Öndüzen (Direksiyon) Sistemi:Aracın seyir halindeyken yönünü tayin eden sistemdir.
+ "/>
+
+            <ImageView
+                android:layout_width="300dp"
+                android:layout_height="150dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="5dp"
+                android:src="@drawable/r12" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="75dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"
+                android:text="Şasi:Motor aracın iskelet kısmını oluşturan aksamdır.Üzerinde ön düzen,süspansiyon,fren sistemi ve güç aktarma organları gibi sistemleri üzerinde bulunduran taşıyan kısımdır.
+ "/>
+
+
+
+            <ImageView
+                android:layout_width="300dp"
+                android:layout_height="150dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="5dp"
+                android:src="@drawable/r13" />
+
+
+        </LinearLayout>
+    </ScrollView>
+</android.support.constraint.ConstraintLayout>

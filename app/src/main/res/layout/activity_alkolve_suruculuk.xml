@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AlkolveSuruculuk">
+
+
+    <ScrollView
+        android:id="@+id/scrollView8"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginBottom="8dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            tools:layout_editor_absoluteX="31dp"
+            tools:layout_editor_absoluteY="270dp">
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="30dp"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="10dp"
+                android:text="Alkol ve Sürücülük"
+                android:textColor="#000"
+                android:textSize="26dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="25dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"
+                android:text="A- Alkol Kullanma ve Sürücülük"
+                android:textSize="18dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="135dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"
+                android:text="Alkol kullanımının kaza yapma riskiyle yakından ilişkisi vardır. Alkol miktarı arttıgın- da, kandaki oksijen miktarı azalır ve beyin yeterince oksijen alamadıgı için fonksiyon- larını kaybetmeye başlar. Görme, denge, işitme fonksiyonlarında zayıflama olur.
+\nAlkolün uyarıcı etkileri de vardır. Korku azalır, kendine güven ve aşırı hız istegi artabilir. Lütfen alkollü araç kullanmayalım." />
+
+
+            <ImageView
+                android:layout_width="300dp"
+                android:layout_height="150dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="20dp"
+                android:src="@drawable/sar1" />
+
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="25dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"
+                android:text="B- Alkolün Sürücülerde Olumsuz Etkileri"
+                android:textSize="18dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="90dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"
+                android:text="Araştırmalar, alkolün hangi seviyede olursa olsun, sürücülük için güvenli olmadıgını göstermektedir. Bununla birlikte araştırmalar 0.2 promil düzeyinden itibaren alkol düze- yi arttıkça sürücülük üzerinde olumsuz etkilerinin de arttıgını göstermektedir
+" />
+
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="170dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="15dp"
+                android:src="@drawable/sar2" />
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="25dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"
+                android:text="C- Alkollü Araç Kullanmanın Sonuçları"
+                android:textSize="18dp"
+                android:textStyle="bold" />
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="360dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"
+                android:text="Yönetmelikle belirlenen miktarın (0.50 promilin) üzerinde araç kullandıgı tespit edilen hususi otomobil sürücüleri;
+\n Hususi otomobil dışında kalan diger araçların Taksi veya dolmuş otomobili, moto- siklet, minibüs, otobüs, kamyonet, kamyon, çekici gibi araçlarla kamu hizmetinde yük ve yolcu taşımacılıgı yapan şoförler ile resmi araçların sürücüleri (0.20 promilin) üzerinde alkollü içki almış olarak bu araçları süremezler.
+\nUyuşturucu veya uyarıcı maddelerin kullanılıp kullanılmadıgı ya da alkolün kandaki miktarını tespit amacıyla, kontrole yetkili görevlilerin teknik cihazlar kullanılmasını kabul etmeyen sürücülere idari para cezası verilir ve sürücü belgesi iki yıl süreyle geri alınır. Araç kullanmaktan men edilir.
+\n\nSürücülerin, suçun işlendigi tarihten itibaren geriye dogru 5 yıl içinde;
+Birinci defasında: Hafif para cezası ile birlikte sürücü belgeleri 6 ay sürey- le geri alınır.
+\nIkinci defasında: Hafif para cezası ile birlikte 2 yıl süreyle sürücü belgeleri geri alınır.\nÜç ve üçten fazlasında ise: Sürücü belgeleri 5 şer yıl süre ile geri alınır ve hafif para cezası uygulanır. " />
+
+
+
+            <ImageView
+                android:layout_width="300dp"
+                android:layout_height="150dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="15dp"
+                android:src="@drawable/sar3" />
+
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="45dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"
+                android:text="D- Diğer Uyuşturucu ve Uyarıcıların Sürücüde \n Olumsuz Etkileri"
+                android:textSize="18dp"
+                android:textStyle="bold" />
+
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="130dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"
+                android:text="Uyuşturucu, uyutucu ve keyif verici gibi özelliklere sahip maddeleri almış olanlar, güvenli sürme yeteneklerini kaybederler. \n\n Trafik kuruluşunca,uyuşturucu veya uyarıcı madde kullandıgı tespit edilen sürücünün belirtilen miktarda idari para cezası verilerek,sürücü belgesi 5 YIL SÜREYLE geri alınır.
+" />
+
+
+
+
+
+        </LinearLayout>
+    </ScrollView>
+
+
+</android.support.constraint.ConstraintLayout>

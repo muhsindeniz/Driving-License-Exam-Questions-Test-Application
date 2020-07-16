@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SurucuDavranislarininEtkilenmesi">
+
+    <ScrollView
+        android:id="@+id/scrollView7"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginBottom="8dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            tools:layout_editor_absoluteX="16dp"
+            tools:layout_editor_absoluteY="166dp">
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="75dp"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="10dp"
+                android:text="Sürücü Davranışlarının\n İncelenmesi"
+                android:textColor="#000"
+                android:textSize="24dp"
+                android:textStyle="bold" />
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="25dp"
+                android:layout_marginLeft="12dp"
+                android:layout_marginTop="10dp"
+                android:text="A- Sürücülük Davranışlarının Etkilenmesi"
+                android:textSize="18dp"
+                android:textStyle="bold" />
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="290dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"
+                android:text="Trafik kazalarının %98.2nin insandan kaynaklandıgı, yapılan araştırmalarla saptan- mıştır. Bu olgu, (insan faktörü) somut olarak tanımlanmadıgı sürece, kazaları önlemek için yapılan çalışmalar amacına ulaşamaz. Trafik ortamında, insan faktörü sürücüleri, yayaları, denetçileri, araç içerisindeki yolcuları kapsar.\n\n Trafikte araç kullanan tüm sürücülerin sahip olması gereken özellikler;
+Kişinin trafik ve sürücülük konusunda aldıgı egitim ve bilgi seviyesi,\n
+Kişinin araç kullanmak için sahip olması gereken becerileri,\n
+Kişinin kurallara uyma bilinci ve istegi,\n
+Kişinin araç sürme tarzı ve alışkanlıkları.
+" />
+
+
+            <ImageView
+                android:layout_width="300dp"
+                android:layout_height="150dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="20dp"
+                android:src="@drawable/kar3" />
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="25dp"
+                android:layout_marginLeft="12dp"
+                android:layout_marginTop="10dp"
+                android:text="B- Zaman İçinde Sürücü Davranışının Gelişimi"
+                android:textSize="18dp"
+                android:textStyle="bold" />
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"
+                android:text="Araç kullanmak için gereken temel yetenek ve beceriler algı, dikkat ve konsantras- yon, şekil fark etme, hafıza ve göz-el-ayak koordinasyonu gelişimiyle zaman içerisinde
+sürücülük davranışlarını olumlu yönde geliştirir.
+" />
+
+
+        </LinearLayout>
+    </ScrollView>
+
+</android.support.constraint.ConstraintLayout>

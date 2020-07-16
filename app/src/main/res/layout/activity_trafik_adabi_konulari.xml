@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".TrafikAdabiKonulari">
+
+    <LinearLayout
+        android:id="@+id/linearLayout3"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginBottom="8dp"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="300dp"
+            android:layout_height="30dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="15dp"
+            android:text="Trafik Adabı Genel Konular"
+            android:textSize="24dp"
+            android:textStyle="bold" />
+
+        <ImageButton
+            android:id="@+id/TrafikAdabiKonu1"
+            android:layout_width="340dp"
+            android:layout_height="55dp"
+            android:layout_marginLeft="8dp"
+            android:onClick="TrafikAdabiKonu1"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/tak1" />
+
+        <ImageButton
+            android:id="@+id/TrafikAdabiKonu2"
+            android:layout_width="340dp"
+            android:onClick="TrafikAdabiKonu2"
+            android:layout_height="55dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/tak2" />
+
+        <ImageButton
+            android:id="@+id/TrafikAdabiKonu3"
+            android:layout_width="340dp"
+            android:layout_height="55dp"
+            android:layout_marginLeft="8dp"
+            android:onClick="TrafikAdabiKonu3"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/tak3" />
+
+        <ImageButton
+            android:id="@+id/TrafikAdabiKonu4"
+            android:layout_width="340dp"
+            android:layout_height="55dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/tak4"
+            android:onClick="TrafikAdabiKonu4" />
+
+        <ImageButton
+            android:id="@+id/TrafikAdabiKonu5"
+            android:layout_width="340dp"
+            android:layout_height="55dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/tak5"
+            android:onClick="TrafikAdabiKonu5" />
+
+    </LinearLayout>
+
+</android.support.constraint.ConstraintLayout>
